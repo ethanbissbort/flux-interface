@@ -1,6 +1,45 @@
 {
   "FileVersion": 3,
-  "EngineAssociation": "5.x",
-  "Category": "",
-  "Description": "Homestead Twin Unreal Engine project placeholder. Open this in UE5 and let the editor update as needed."
+  "EngineAssociation": "5.3",
+  "Category": "Simulation",
+  "Description": "Digital twin of Fluxology Homestead - a spatially accurate 3D/VR planning and operations tool",
+  "Modules": [
+    {
+      "Name": "HomesteadTwin",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine",
+        "UMG"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "SteamVR",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "SteamVRInput",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    },
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true
+    }
+  ],
+  "TargetPlatforms": [
+    "Windows"
+  ],
+  "EpicSampleNameHash": "0"
 }

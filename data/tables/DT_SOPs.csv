@@ -1,0 +1,11 @@
+Name,SOPId,Title,Description,LinkedObjectIds,TotalEstimatedTime,Tags
+SOP_POWER_DOWN_RACK_01,SOP_POWER_DOWN_RACK_01,Rack Power-Down Sequence,"Standard procedure for safely powering down the main rack container to prevent data loss and equipment damage.",RackContainer|RackMain,900,Power|Safety|Rack
+SOP_POWER_UP_RACK_01,SOP_POWER_UP_RACK_01,Rack Power-Up Sequence,"Standard procedure for powering up the main rack container in correct sequence to avoid power surges.",RackContainer|RackMain,600,Power|Safety|Rack
+SOP_GENERATOR_STARTUP,SOP_GENERATOR_STARTUP,Generator Startup Procedure,"Safe startup procedure for backup generator including pre-flight checks and load management.",Generator|GeneratorPad,1200,Power|Generator|Safety
+SOP_GENERATOR_SHUTDOWN,SOP_GENERATOR_SHUTDOWN,Generator Shutdown Procedure,"Safe shutdown procedure for backup generator including cooldown period.",Generator|GeneratorPad,900,Power|Generator|Safety
+SOP_FIRE_RESPONSE_RACK,SOP_FIRE_RESPONSE_RACK,Fire Response - Rack Container,"Emergency response procedure for fire in rack container including equipment shutdown and egress.",RackContainer|RackMain,300,Fire|Emergency|Safety
+SOP_INTRUSION_RESPONSE,SOP_INTRUSION_RESPONSE,Perimeter Intrusion Response,"Response procedure for perimeter intrusion detection including LRAD activation and law enforcement contact.",PerimeterSensors|LRAD,600,Security|Emergency|Deterrence
+SOP_BATTERY_SOC_LOW,SOP_BATTERY_SOC_LOW,Low Battery SOC Response,"Procedure for responding to low battery state of charge alerts including load shedding.",BatteryBank|PowerSystem,900,Power|Battery|Alert
+SOP_NETBOTZ_TEMP_HIGH,SOP_NETBOTZ_TEMP_HIGH,High Temperature Alert - Rack,"Response to high temperature alerts in rack container including Aircela activation and equipment checks.",RackContainer|NetBotz|Aircela,600,Environment|Rack|Alert
+SOP_WORKSHOP_LOCKOUT,SOP_WORKSHOP_LOCKOUT,Workshop Lockout/Tagout,"Lockout/tagout procedure for workshop equipment maintenance ensuring electrical safety.",WorkshopContainer|WorkshopEquipment,300,Safety|Workshop|Maintenance
+SOP_PV_ARRAY_INSPECTION,SOP_PV_ARRAY_INSPECTION,Solar Array Monthly Inspection,"Monthly inspection checklist for PV array including cleaning and connection checks.",SolarArray|PVPanels,1800,Power|Solar|Maintenance

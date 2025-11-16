@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Git merge artifacts
+*.orig
+
+# Unreal Engine
+homestead_twin/Project/Binaries/
+homestead_twin/Project/DerivedDataCache/
+homestead_twin/Project/Intermediate/
+homestead_twin/Project/Saved/
+homestead_twin/Project/.vs/
+*.VC.db
+*.sln
+
+# Build artifacts
+homestead_twin/Project/Build/
+homestead_twin/Project/Plugins/*/Intermediate/
+homestead_twin/Project/Plugins/*/Binaries/
+
+# Large data / raw scans (adjust as needed)
+data/scans/raw/**
+data/backups/**
+data/exports/**/*.mp4
+data/exports/screenshots/**

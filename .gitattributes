@@ -1,0 +1,12 @@
+* text=auto
+
+*.fbx  binary
+*.uasset binary
+*.umap binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.tga  binary
+*.stl  binary
+*.step binary
+*.iges binary

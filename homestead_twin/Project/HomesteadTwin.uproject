@@ -1,6 +1,6 @@
 {
   "FileVersion": 3,
-  "EngineAssociation": "5.3",
+  "EngineAssociation": "5.7",
   "Category": "Simulation",
   "Description": "Digital twin of Fluxology Homestead - a spatially accurate 3D/VR planning and operations tool",
   "Modules": [
@@ -17,14 +17,14 @@
   "Plugins": [
     {
       "Name": "SteamVR",
-      "Enabled": true,
+      "Enabled": false,
       "SupportedTargetPlatforms": [
         "Win64"
       ]
     },
     {
       "Name": "SteamVRInput",
-      "Enabled": true,
+      "Enabled": false,
       "SupportedTargetPlatforms": [
         "Win64"
       ]

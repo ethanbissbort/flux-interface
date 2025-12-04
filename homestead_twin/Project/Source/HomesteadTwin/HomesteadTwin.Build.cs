@@ -14,7 +14,6 @@ public class HomesteadTwin : ModuleRules
 			"CoreUObject",
 			"Engine",
 			"InputCore",
-			"HeadMountedDisplay",
 			"UMG",
 			"Slate",
 			"SlateCore"
@@ -26,16 +25,6 @@ public class HomesteadTwin : ModuleRules
 			"JsonUtilities",
 			"HTTP"
 		});
-
-		// VR Support
-		if (Target.Platform == UnrealTargetPlatform.Win64)
-		{
-			PublicDependencyModuleNames.AddRange(new string[]
-			{
-				"SteamVR",
-				"SteamVRInput"
-			});
-		}
 
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");

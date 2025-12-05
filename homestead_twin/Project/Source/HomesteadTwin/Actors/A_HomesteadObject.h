@@ -7,9 +7,9 @@
 #include "A_HomesteadObject.generated.h"
 
 class UStaticMeshComponent;
-class UInteractableComponent;
-class USOPComponent;
-class UTelemetryComponent;
+class UU_InteractableComponent;
+class UU_SOPComponent;
+class UU_TelemetryComponent;
 
 /**
  * AA_HomesteadObject
@@ -55,15 +55,15 @@ public:
 
 	/** Get interactable component (if exists) */
 	UFUNCTION(BlueprintPure, Category = "Homestead Twin|Object")
-	UInteractableComponent* GetInteractableComponent() const { return InteractableComponent; }
+	UU_InteractableComponent* GetInteractableComponent() const { return InteractableComponent; }
 
 	/** Get SOP component (if exists) */
 	UFUNCTION(BlueprintPure, Category = "Homestead Twin|Object")
-	USOPComponent* GetSOPComponent() const { return SOPComponent; }
+	UU_SOPComponent* GetSOPComponent() const { return SOPComponent; }
 
 	/** Get telemetry component (if exists) */
 	UFUNCTION(BlueprintPure, Category = "Homestead Twin|Object")
-	UTelemetryComponent* GetTelemetryComponent() const { return TelemetryComponent; }
+	UU_TelemetryComponent* GetTelemetryComponent() const { return TelemetryComponent; }
 
 	/** Check if this object is interactive */
 	UFUNCTION(BlueprintPure, Category = "Homestead Twin|Object")
@@ -81,15 +81,15 @@ protected:
 
 	/** Interactable component (optional) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Homestead Twin|Components")
-	UInteractableComponent* InteractableComponent;
+	UU_InteractableComponent* InteractableComponent;
 
 	/** SOP component (optional) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Homestead Twin|Components")
-	USOPComponent* SOPComponent;
+	UU_SOPComponent* SOPComponent;
 
 	/** Telemetry component (optional, future phase) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Homestead Twin|Components")
-	UTelemetryComponent* TelemetryComponent;
+	UU_TelemetryComponent* TelemetryComponent;
 
 	/** Unique object identifier (e.g., "rack_main_42u_01") */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Homestead Twin|Metadata")

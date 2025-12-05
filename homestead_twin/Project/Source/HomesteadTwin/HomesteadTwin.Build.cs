@@ -16,7 +16,8 @@ public class HomesteadTwin : ModuleRules
 			"InputCore",
 			"UMG",
 			"Slate",
-			"SlateCore"
+			"SlateCore",
+			"HeadMountedDisplay"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[]

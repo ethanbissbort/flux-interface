@@ -10,6 +10,8 @@ UUS_SOPManager::UUS_SOPManager()
 void UUS_SOPManager::Initialize(FSubsystemCollectionBase& Collection)
 {
 	Super::Initialize(Collection);
+
+	LoadSOPData();
 }
 
 void UUS_SOPManager::Deinitialize()
@@ -19,29 +21,62 @@ void UUS_SOPManager::Deinitialize()
 
 void UUS_SOPManager::LoadSOPData()
 {
-	// TODO: Load SOP data from JSON files
+	// TODO: Load SOP data from data table
+	// If SOPDataTable is set, iterate through it and populate SOPDatabase
 }
 
 FStandardOperatingProcedure UUS_SOPManager::GetSOPById(FName SOPId) const
 {
-	// TODO: Implement lookup
-	return FStandardOperatingProcedure();
+	const FStandardOperatingProcedure* SOP = SOPDatabase.Find(SOPId);
+	return SOP ? *SOP : FStandardOperatingProcedure();
 }
 
 TArray<FStandardOperatingProcedure> UUS_SOPManager::GetSOPsForObject(FName ObjectId) const
 {
-	// TODO: Implement lookup
-	return TArray<FStandardOperatingProcedure>();
+	TArray<FStandardOperatingProcedure> SOPs;
+	for (const auto& Pair : SOPDatabase)
+	{
+		if (Pair.Value.LinkedObjectIds.Contains(ObjectId))
+		{
+			SOPs.Add(Pair.Value);
+		}
+	}
+	return SOPs;
+}
+
+TArray<FStandardOperatingProcedure> UUS_SOPManager::GetSOPsByTag(FName Tag) const
+{
+	TArray<FStandardOperatingProcedure> SOPs;
+	for (const auto& Pair : SOPDatabase)
+	{
+		if (Pair.Value.Tags.Contains(Tag))
+		{
+			SOPs.Add(Pair.Value);
+		}
+	}
+	return SOPs;
 }
 
 TArray<FStandardOperatingProcedure> UUS_SOPManager::GetAllSOPs() const
 {
-	// TODO: Implement
-	return TArray<FStandardOperatingProcedure>();
+	TArray<FStandardOperatingProcedure> SOPs;
+	SOPDatabase.GenerateValueArray(SOPs);
+	return SOPs;
 }
 
-TArray<FName> UUS_SOPManager::SearchSOPs(const FString& SearchQuery) const
+TArray<FStandardOperatingProcedure> UUS_SOPManager::SearchSOPs(const FString& SearchText) const
 {
-	// TODO: Implement search
-	return TArray<FName>();
+	TArray<FStandardOperatingProcedure> Results;
+	FString LowerSearchText = SearchText.ToLower();
+
+	for (const auto& Pair : SOPDatabase)
+	{
+		if (Pair.Value.Title.ToLower().Contains(LowerSearchText) ||
+			Pair.Value.Description.ToLower().Contains(LowerSearchText))
+		{
+			Results.Add(Pair.Value);
+		}
+	}
+
+	return Results;
 }

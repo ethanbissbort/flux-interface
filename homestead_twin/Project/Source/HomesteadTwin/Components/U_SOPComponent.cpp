@@ -1,7 +1,7 @@
 // Copyright Fluxology. All Rights Reserved.
 
 #include "U_SOPComponent.h"
-#include "US_SOPManager.h"
+#include "../Subsystems/US_SOPManager.h"
 
 UU_SOPComponent::UU_SOPComponent()
 {

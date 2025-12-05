@@ -1,0 +1,366 @@
+Rebuild started at 8:02 PM...
+1>------ Skipped Rebuild All: Project: UE5, Configuration: BuiltWithUnrealBuildTool Win64 ------
+1>Project not selected to build for this solution configuration 
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Plugins\ScriptPlugin\Source\ScriptGeneratorUbtPlugin\ScriptGeneratorUbtPlugin.ubtplugin.csproj (in 7 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj (in 40 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.AspNet\EpicGames.AspNet.csproj (in 41 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.MsBuild\EpicGames.MsBuild.csproj (in 41 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.BuildGraph\EpicGames.BuildGraph.csproj (in 45 ms).
+2>------ Rebuild All started: Project: HomesteadTwin, Configuration: Development_Editor x64 ------
+3>------ Rebuild All started: Project: EpicGames.UBA, Configuration: Development Any CPU ------
+4>------ Rebuild All started: Project: EpicGames.Tracing, Configuration: Development Any CPU ------
+5>------ Rebuild All started: Project: EpicGames.Slack, Configuration: Development Any CPU ------
+6>------ Rebuild All started: Project: EpicGames.ScriptBuild, Configuration: Development Any CPU ------
+7>------ Rebuild All started: Project: EpicGames.Oodle, Configuration: Development Any CPU ------
+8>------ Rebuild All started: Project: EpicGames.OIDC, Configuration: Development Any CPU ------
+9>------ Rebuild All started: Project: EpicGames.MongoDB, Configuration: Development Any CPU ------
+10>------ Rebuild All started: Project: EpicGames.Core, Configuration: Development Any CPU ------
+11>------ Rebuild All started: Project: ScriptGeneratorUbtPlugin.ubtplugin, Configuration: Development Any CPU ------
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.MongoDB\EpicGames.MongoDB.csproj (in 45 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Intermediate\Build\BuildRulesProjects\UE5Rules\UE5Rules.csproj (in 47 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\SmartlingLocalization\SmartlingLocalization.Automation.csproj (in 111 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Apple\Apple.Automation.csproj (in 111 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Localization\Localization.Automation.csproj (in 63 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\SteamDeck\SteamDeck.Automation.csproj (in 111 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Android\Android.Automation.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\TVOS\TVOS.Automation.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\BuildGraph\BuildGraph.Automation.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\LowLevelTests\LowLevelTests.Automation.csproj (in 67 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Platforms\VisionOS\Source\Programs\AutomationTool\VisionOS.Automation.csproj (in 53 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Scripts\AutomationScripts.Automation.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\AutomationUtils\AutomationUtils.Automation.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Turnkey\Turnkey.Automation.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.ScriptBuild\EpicGames.ScriptBuild.csproj (in 1 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Win\Win.Automation.csproj (in 116 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\LiveLinkHub\LiveLinkHub.Automation.csproj (in 67 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Oodle\EpicGames.Oodle.csproj (in 1 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj (in 5 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Tracing\EpicGames.Tracing.csproj (in 1 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.UBA\EpicGames.UBA.csproj (in 2 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\AutomationTool.csproj (in 112 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.OIDC\EpicGames.OIDC.csproj (in 5 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Slack\EpicGames.Slack.csproj (in 4 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj (in 5 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Redis\EpicGames.Redis.csproj (in 13 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Build\EpicGames.Build.csproj (in 7 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Intermediate\Build\BuildRulesProjects\UE5ProgramRules\UE5ProgramRules.csproj (in 19 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Horde\EpicGames.Horde.csproj (in 13 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Mutable\Mutable.Automation.csproj (in 10 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Perforce\EpicGames.Perforce.csproj (in 4 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.UHT\EpicGames.UHT.csproj (in 7 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.ProjectStore\EpicGames.ProjectStore.csproj (in 12 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Linux\Linux.Automation.csproj (in 25 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Insights\Insights.Automation.csproj (in 27 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\IOS\IOS.Automation.csproj (in 28 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\OneSkyLocalization\OneSkyLocalization.Automation.csproj (in 24 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Perforce.Managed\EpicGames.Perforce.Managed.csproj (in 15 ms).
+Restored C:\repos\flux-interface\homestead_twin\Project\Intermediate\Build\BuildRulesProjects\HomesteadTwinModuleRules\HomesteadTwinModuleRules.csproj (in 21 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Mac\Mac.Automation.csproj (in 23 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj (in 29 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Perforce.Fixture\EpicGames.Perforce.Fixture.csproj (in 44 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\CrowdinLocalization\CrowdinLocalization.Automation.csproj (in 20 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\CookedEditor\CookedEditor.Automation.csproj (in 23 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\Gauntlet\Gauntlet.Automation.csproj (in 24 ms).
+Restored C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\XLocLocalization\XLocLocalization.Automation.csproj (in 34 ms).
+2>Using bundled DotNet SDK version: 8.0.412 win-x64
+2>Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" HomesteadTwinEditor Win64 Development -Project="C:\repos\flux-interface\homestead_twin\Project\HomesteadTwin.uproject" -WaitMutex -FromMsBuild -architecture=x64 -Rebuild
+2>Log file: C:\Users\ethan\AppData\Local\UnrealBuildTool\Log.txt
+2>Cleaning HomesteadTwinEditor binaries...
+2>Creating makefile for HomesteadTwinEditor (no existing makefile)
+6>EpicGames.ScriptBuild -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.ScriptBuild\bin\Development\net8.0\EpicGames.ScriptBuild.dll
+7>EpicGames.Oodle -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Oodle\bin\Development\net8.0\EpicGames.Oodle.dll
+11>ScriptGeneratorUbtPlugin.ubtplugin -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\UnrealBuildTool\Plugins\ScriptGeneratorUbtPlugin\ScriptGeneratorUbtPlugin.dll
+8>EpicGames.OIDC -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.OIDC\bin\Development\net8.0\EpicGames.OIDC.dll
+10>EpicGames.Core -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Core\bin\Development\net8.0\EpicGames.Core.dll
+3>EpicGames.UBA -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.UBA\bin\Development\net8.0\EpicGames.UBA.dll
+12>------ Rebuild All started: Project: EpicGames.Perforce, Configuration: Development Any CPU ------
+13>------ Rebuild All started: Project: EpicGames.MsBuild, Configuration: Development Any CPU ------
+14>------ Rebuild All started: Project: EpicGames.IoHash, Configuration: Development Any CPU ------
+9>EpicGames.MongoDB -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.MongoDB\bin\Development\net8.0\EpicGames.MongoDB.dll
+5>EpicGames.Slack -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Slack\bin\Development\net8.0\EpicGames.Slack.dll
+13>EpicGames.MsBuild -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.MsBuild\bin\Development\net8.0\EpicGames.MsBuild.dll
+14>EpicGames.IoHash -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.IoHash\bin\Development\net8.0\EpicGames.IoHash.dll
+15>------ Rebuild All started: Project: EpicGames.Serialization, Configuration: Development Any CPU ------
+16>------ Rebuild All started: Project: EpicGames.Build, Configuration: Development Any CPU ------
+2>UHT compiled-in object format Default
+15>EpicGames.Serialization -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Serialization\bin\Development\net8.0\EpicGames.Serialization.dll
+17>------ Rebuild All started: Project: EpicGames.Redis, Configuration: Development Any CPU ------
+18>------ Rebuild All started: Project: EpicGames.Horde, Configuration: Development Any CPU ------
+19>------ Rebuild All started: Project: EpicGames.BuildGraph, Configuration: Development Any CPU ------
+20>------ Rebuild All started: Project: EpicGames.AspNet, Configuration: Development Any CPU ------
+16>EpicGames.Build -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Build\bin\Development\net8.0\EpicGames.Build.dll
+21>------ Rebuild All started: Project: EpicGames.UHT, Configuration: Development Any CPU ------
+12>EpicGames.Perforce -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Perforce\bin\Development\net8.0\EpicGames.Perforce.dll
+22>------ Rebuild All started: Project: EpicGames.Perforce.Managed, Configuration: Development Any CPU ------
+4>EpicGames.Tracing -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Tracing\bin\Development\net8.0\EpicGames.Tracing.dll
+2>Building HomesteadTwinEditor...
+21>EpicGames.UHT -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.UHT\bin\Development\net8.0\EpicGames.UHT.dll
+17>EpicGames.Redis -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Redis\bin\Development\net8.0\EpicGames.Redis.dll
+19>EpicGames.BuildGraph -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.BuildGraph\bin\Development\net8.0\EpicGames.BuildGraph.dll
+2>Using Visual Studio 2022 14.44.35221 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+2>[Adaptive Build] Excluded from HomesteadTwin unity file: HomesteadTwin.cpp, A_Annotation.cpp, A_HomesteadObject.cpp, U_InteractableComponent.cpp, U_SOPComponent.cpp, U_TelemetryComponent.cpp, GI_HomesteadTwin.cpp, GM_HomesteadTwin.cpp, Pawn_Desktop.cpp, Pawn_VR.cpp, PC_Desktop.cpp, PC_VR.cpp, US_AnnotationManager.cpp, US_HomesteadPhaseManager.cpp, US_ScenarioManager.cpp, US_SOPManager.cpp, US_TelemetryManager.cpp
+2>[Adaptive Build] Excluded from VisualStudioTools unity file: BlueprintAssetHelper.cpp, BlueprintReferencesCommandlet.cpp, VisualStudioTools.cpp, VisualStudioToolsBlueprintBreakpointExtension.cpp, VisualStudioToolsCommandlet.cpp, VisualStudioToolsCommandletBase.cpp, VSServerCommandlet.cpp, VSTestAdapterCommandlet.cpp
+2>[Adaptive Build] Excluded from VisualStudioBlueprintDebuggerHelper unity file: VisualStudioBlueprintDebuggerHelperModule.cpp
+2>Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+2>  Executing up to 8 processes, one per physical core
+2>Using Unreal Build Accelerator local executor to run 41 action(s)
+2>  Storage capacity 40Gb
+2>---- Starting trace: 251204_200238_vs36804 ----
+2>UbaServer - Listening on 0.0.0.0:1345
+2>[1/41] Resource Default.rc2
+2>[2/41] Resource Default.rc2
+2>[3/41] Resource Default.rc2
+20>EpicGames.AspNet -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.AspNet\bin\Development\net8.0\EpicGames.AspNet.dll
+22>EpicGames.Perforce.Managed -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Perforce.Managed\bin\Development\net8.0\EpicGames.Perforce.Managed.dll
+23>------ Rebuild All started: Project: EpicGames.Perforce.Fixture, Configuration: Development Any CPU ------
+18>EpicGames.Horde -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Horde\bin\Development\net8.0\EpicGames.Horde.dll
+24>------ Rebuild All started: Project: UnrealBuildTool, Configuration: Development Any CPU ------
+25>------ Rebuild All started: Project: EpicGames.ProjectStore, Configuration: Development Any CPU ------
+25>EpicGames.ProjectStore -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.ProjectStore\bin\Development\net8.0\EpicGames.ProjectStore.dll
+23>EpicGames.Perforce.Fixture -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\Shared\EpicGames.Perforce.Fixture\bin\Development\net8.0\EpicGames.Perforce.Fixture.dll
+24>UnrealBuildTool -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\UnrealBuildTool\bin\Development\UnrealBuildTool.dll
+26>------ Rebuild All started: Project: AutomationUtils.Automation, Configuration: Development Any CPU ------
+27>------ Rebuild All started: Project: UE5Rules, Configuration: Development Any CPU ------
+26>AutomationUtils.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\AutomationUtils\bin\Development\AutomationUtils.Automation.dll
+28>------ Rebuild All started: Project: SteamDeck.Automation, Configuration: Development Any CPU ------
+29>------ Rebuild All started: Project: Localization.Automation, Configuration: Development Any CPU ------
+30>------ Rebuild All started: Project: BuildGraph.Automation, Configuration: Development Any CPU ------
+31>------ Rebuild All started: Project: Apple.Automation, Configuration: Development Any CPU ------
+28>SteamDeck.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\SteamDeck\SteamDeck.Automation.dll
+29>Localization.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.dll
+32>------ Rebuild All started: Project: Linux.Automation, Configuration: Development Any CPU ------
+33>------ Rebuild All started: Project: XLocLocalization.Automation, Configuration: Development Any CPU ------
+34>------ Rebuild All started: Project: SmartlingLocalization.Automation, Configuration: Development Any CPU ------
+35>------ Rebuild All started: Project: AutomationScripts.Automation, Configuration: Development Any CPU ------
+36>------ Rebuild All started: Project: OneSkyLocalization.Automation, Configuration: Development Any CPU ------
+37>------ Rebuild All started: Project: CrowdinLocalization.Automation, Configuration: Development Any CPU ------
+31>Apple.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\Apple.Automation.dll
+38>------ Rebuild All started: Project: Mac.Automation, Configuration: Development Any CPU ------
+39>------ Rebuild All started: Project: IOS.Automation, Configuration: Development Any CPU ------
+32>Linux.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Linux\Linux.Automation.dll
+37>CrowdinLocalization.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.dll
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\jemalloc\jemalloc.Build.cs(5,14,5,22): warning CS8981: The type name 'jemalloc' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\libzip\libzip.Build.cs(6,14,6,20): warning CS8981: The type name 'libzip' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\xxhash\xxhash.Build.cs(6,14,6,20): warning CS8981: The type name 'xxhash' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\metis\metis.Build.cs(6,14,6,19): warning CS8981: The type name 'metis' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\zlib\zlib.Build.cs(6,14,6,18): warning CS8981: The type name 'zlib' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\mimalloc\mimalloc.Build.cs(6,14,6,22): warning CS8981: The type name 'mimalloc' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\nanoflann\nanoflann.Build.cs(6,14,6,23): warning CS8981: The type name 'nanoflann' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\abseil\abseil.Build.cs(7,14,7,20): warning CS8981: The type name 'abseil' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\astcenc\astcenc.Build.cs(6,14,6,21): warning CS8981: The type name 'astcenc' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\portmidi\portmidi.Build.cs(5,14,5,22): warning CS8981: The type name 'portmidi' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\coremod\coremod.Build.cs(6,14,6,21): warning CS8981: The type name 'coremod' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\pugixml\pugixml.Build.cs(6,14,6,21): warning CS8981: The type name 'pugixml' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\libav\libav.Build.cs(7,14,7,19): warning CS8981: The type name 'libav' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\libcurl\libcurl.Build.cs(6,14,6,21): warning CS8981: The type name 'libcurl' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\simde\simde.Build.cs(6,14,6,19): warning CS8981: The type name 'simde' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\heapprofd\heapprofd.Build.cs(6,14,6,23): warning CS8981: The type name 'heapprofd' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\libpas\src\libpas\libpas.Build.cs(7,14,7,20): warning CS8981: The type name 'libpas' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>C:\Program Files\Epic Games\UE_5.7\Engine\Source\ThirdParty\libstrophe\libstrophe.Build.cs(6,14,6,24): warning CS8981: The type name 'libstrophe' only contains lower-cased ascii characters. Such names may become reserved for the language.
+27>UE5Rules -> C:\Program Files\Epic Games\UE_5.7\Engine\Intermediate\Build\BuildRulesProjects\UE5Rules\bin\Development\UE5Rules.dll
+27>Done building project "UE5Rules.csproj".
+40>------ Rebuild All started: Project: UE5ProgramRules, Configuration: Development Any CPU ------
+38>Mac.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.dll
+36>OneSkyLocalization.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.dll
+34>SmartlingLocalization.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\SmartlingLocalization\SmartlingLocalization.Automation.dll
+33>XLocLocalization.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\XLocLocalization\XLocLocalization.Automation.dll
+30>BuildGraph.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\BuildGraph\BuildGraph.Automation.dll
+41>------ Rebuild All started: Project: Win.Automation, Configuration: Development Any CPU ------
+40>UE5ProgramRules -> C:\Program Files\Epic Games\UE_5.7\Engine\Intermediate\Build\BuildRulesProjects\UE5ProgramRules\bin\Development\UE5ProgramRules.dll
+42>------ Rebuild All started: Project: HomesteadTwinModuleRules, Configuration: Development Any CPU ------
+39>IOS.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\IOS\IOS.Automation.dll
+43>------ Rebuild All started: Project: TVOS.Automation, Configuration: Development Any CPU ------
+41>Win.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.dll
+35>AutomationScripts.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.dll
+44>------ Rebuild All started: Project: CookedEditor.Automation, Configuration: Development Any CPU ------
+45>------ Rebuild All started: Project: Android.Automation, Configuration: Development Any CPU ------
+46>------ Rebuild All started: Project: VisionOS.Automation, Configuration: Development Any CPU ------
+42>HomesteadTwinModuleRules -> C:\repos\flux-interface\homestead_twin\Project\Intermediate\Build\BuildRulesProjects\HomesteadTwinModuleRules\bin\Development\HomesteadTwinModuleRules.dll
+43>TVOS.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\TVOS\TVOS.Automation.dll
+46>VisionOS.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Platforms\VisionOS\Binaries\DotNET\AutomationTool\AutomationScripts\VisionOS.Automation.dll
+44>CookedEditor.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.dll
+47>------ Rebuild All started: Project: LiveLinkHub.Automation, Configuration: Development Any CPU ------
+45>Android.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Android\Android.Automation.dll
+48>------ Rebuild All started: Project: Gauntlet.Automation, Configuration: Development Any CPU ------
+47>LiveLinkHub.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\LiveLinkHub\LiveLinkHub.Automation.dll
+48>Gauntlet.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Gauntlet\Gauntlet.Automation.dll
+49>------ Rebuild All started: Project: Turnkey.Automation, Configuration: Development Any CPU ------
+50>------ Rebuild All started: Project: Mutable.Automation, Configuration: Development Any CPU ------
+51>------ Rebuild All started: Project: LowLevelTests.Automation, Configuration: Development Any CPU ------
+52>------ Rebuild All started: Project: Insights.Automation, Configuration: Development Any CPU ------
+50>Mutable.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Mutable\Mutable.Automation.dll
+51>LowLevelTests.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\LowLevelTests\LowLevelTests.Automation.dll
+52>Insights.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Insights\Insights.Automation.dll
+49>Turnkey.Automation -> C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.dll
+53>------ Rebuild All started: Project: AutomationTool, Configuration: Development Any CPU ------
+53>AutomationTool -> C:\Program Files\Epic Games\UE_5.7\Engine\Source\Programs\AutomationTool\bin\Development\AutomationTool.dll
+2>[4/41] Compile [x64] SharedPCH.UnrealEd.Project.NonOptimized.ValApi.ValExpApi.Cpp20.cpp
+2>[5/41] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.cpp
+2>[6/41] Compile [x64] HomesteadTwin.cpp
+2>[7/41] Compile [x64] GI_HomesteadTwin.cpp
+2>[8/41] Compile [x64] Module.VisualStudioBlueprintDebuggerHelper.cpp
+2>[9/41] Compile [x64] A_HomesteadObject.cpp
+2>[10/41] Compile [x64] PC_VR.cpp
+2>[11/41] Compile [x64] PC_Desktop.cpp
+2>[12/41] Compile [x64] US_HomesteadPhaseManager.cpp
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_HomesteadPhaseManager.cpp(24,33): error C2039: 'RefreshPhaseVisibility': is not a member of 'UUS_HomesteadPhaseManager'
+2>void UUS_HomesteadPhaseManager::RefreshPhaseVisibility()
+2>                                ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_HomesteadPhaseManager.h(75,25): note: see declaration of 'UUS_HomesteadPhaseManager'
+2>class HOMESTEADTWIN_API UUS_HomesteadPhaseManager : public UGameInstanceSubsystem
+2>                        ^
+2>[13/41] Compile [x64] GM_HomesteadTwin.cpp
+2>[14/41] Compile [x64] Pawn_Desktop.cpp
+2>[15/41] Compile [x64] US_ScenarioManager.cpp
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_ScenarioManager.cpp(41,27): error C2039: 'LoadScenarioData': is not a member of 'UUS_ScenarioManager'
+2>void UUS_ScenarioManager::LoadScenarioData()
+2>                          ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_ScenarioManager.h(69,25): note: see declaration of 'UUS_ScenarioManager'
+2>class HOMESTEADTWIN_API UUS_ScenarioManager : public UGameInstanceSubsystem
+2>                        ^
+2>[16/41] Compile [x64] US_SOPManager.cpp
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_SOPManager.cpp(43,31): error C2556: 'TArray<FName,FDefaultAllocator> UUS_SOPManager::SearchSOPs(const FString &) const': overloaded function differs only by return type from 'TArray<FStandardOperatingProcedure,FDefaultAllocator> UUS_SOPManager::SearchSOPs(const FString &) const'
+2>TArray<FName> UUS_SOPManager::SearchSOPs(const FString& SearchQuery) const
+2>                              ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_SOPManager.h(126,38): note: see declaration of 'UUS_SOPManager::SearchSOPs'
+2>	TArray<FStandardOperatingProcedure> SearchSOPs(const FString& SearchText) const;
+2>	                                    ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_SOPManager.cpp(43,31): error C2371: 'UUS_SOPManager::SearchSOPs': redefinition; different basic types
+2>TArray<FName> UUS_SOPManager::SearchSOPs(const FString& SearchQuery) const
+2>                              ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_SOPManager.h(126,38): note: see declaration of 'UUS_SOPManager::SearchSOPs'
+2>	TArray<FStandardOperatingProcedure> SearchSOPs(const FString& SearchText) const;
+2>	                                    ^
+2>[17/41] Compile [x64] US_TelemetryManager.cpp
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(19,28): error C2039: 'ConnectToTelemetryBackend': is not a member of 'UUS_TelemetryManager'
+2>void UUS_TelemetryManager::ConnectToTelemetryBackend(const FString& BackendURL, const FString& APIKey)
+2>                           ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.h(81,25): note: see declaration of 'UUS_TelemetryManager'
+2>class HOMESTEADTWIN_API UUS_TelemetryManager : public UGameInstanceSubsystem
+2>                        ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(24,28): error C2039: 'DisconnectFromBackend': is not a member of 'UUS_TelemetryManager'
+2>void UUS_TelemetryManager::DisconnectFromBackend()
+2>                           ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.h(81,25): note: see declaration of 'UUS_TelemetryManager'
+2>class HOMESTEADTWIN_API UUS_TelemetryManager : public UGameInstanceSubsystem
+2>                        ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(29,29): error C2511: 'float UUS_TelemetryManager::GetTelemetryValue(FName) const': overloaded member function not found in 'UUS_TelemetryManager'
+2>float UUS_TelemetryManager::GetTelemetryValue(FName TelemetryKey) const
+2>                            ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.h(81,25): note: see declaration of 'UUS_TelemetryManager'
+2>class HOMESTEADTWIN_API UUS_TelemetryManager : public UGameInstanceSubsystem
+2>                        ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(40,28): error C2039: 'IsTelemetryAvailable': is not a member of 'UUS_TelemetryManager'
+2>bool UUS_TelemetryManager::IsTelemetryAvailable(FName TelemetryKey) const
+2>                           ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.h(81,25): note: see declaration of 'UUS_TelemetryManager'
+2>class HOMESTEADTWIN_API UUS_TelemetryManager : public UGameInstanceSubsystem
+2>                        ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(40,28): error C2270: 'IsTelemetryAvailable': modifiers not allowed on nonmember functions
+2>bool UUS_TelemetryManager::IsTelemetryAvailable(FName TelemetryKey) const
+2>                           ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(45,37): error C2039: 'GetAllTelemetryKeys': is not a member of 'UUS_TelemetryManager'
+2>TArray<FName> UUS_TelemetryManager::GetAllTelemetryKeys() const
+2>                                    ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.h(81,25): note: see declaration of 'UUS_TelemetryManager'
+2>class HOMESTEADTWIN_API UUS_TelemetryManager : public UGameInstanceSubsystem
+2>                        ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(45,37): error C2270: 'GetAllTelemetryKeys': modifiers not allowed on nonmember functions
+2>TArray<FName> UUS_TelemetryManager::GetAllTelemetryKeys() const
+2>                                    ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.cpp(50,28): error C2039: 'RefreshTelemetryData': is not a member of 'UUS_TelemetryManager'
+2>void UUS_TelemetryManager::RefreshTelemetryData()
+2>                           ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Subsystems\US_TelemetryManager.h(81,25): note: see declaration of 'UUS_TelemetryManager'
+2>class HOMESTEADTWIN_API UUS_TelemetryManager : public UGameInstanceSubsystem
+2>                        ^
+2>[18/41] Compile [x64] U_InteractableComponent.cpp
+2>[19/41] Compile [x64] US_AnnotationManager.cpp
+2>[20/41] Compile [x64] U_SOPComponent.cpp
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(15,30): error C2139: 'FStandardOperatingProcedure': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_base_of'
+2>	concept CDerivedFrom = std::is_base_of_v<BaseType, DerivedType> && std::is_convertible_v<const volatile DerivedType*, const volatile BaseType*>;
+2>	                            ^
+2>C:\repos\flux-interface\homestead_twin\Project\Intermediate\Build\Win64\UnrealEditor\Inc\HomesteadTwin\UHT\U_SOPComponent.generated.h(18,8): note: see declaration of 'FStandardOperatingProcedure'
+2>struct FStandardOperatingProcedure;
+2>       ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(15,30): note: the template instantiation context (the oldest one first) is
+2>	concept CDerivedFrom = std::is_base_of_v<BaseType, DerivedType> && std::is_convertible_v<const volatile DerivedType*, const volatile BaseType*>;
+2>	                            ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Components\U_SOPComponent.cpp(28,54): note: see reference to class template instantiation 'TArray<FStandardOperatingProcedure,FDefaultAllocator>' being compiled
+2>TArray<FStandardOperatingProcedure> UU_SOPComponent::GetSOPData() const
+2>                                                     ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Containers\Array.h(992,3): note: while compiling class template member function 'TArray<FStandardOperatingProcedure,FDefaultAllocator>::~TArray(void)'
+2>	~TArray()
+2>	 ^
+2>C:\repos\flux-interface\homestead_twin\Project\Source\HomesteadTwin\Components\U_SOPComponent.cpp(32,2): note: see the first reference to 'TArray<FStandardOperatingProcedure,FDefaultAllocator>::~TArray' in 'UU_SOPComponent::GetSOPData'
+2>	return TArray<FStandardOperatingProcedure>();
+2>	^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Containers\Array.h(994,3): note: see reference to variable template 'const bool TIsTriviallyRelocatable_V<FStandardOperatingProcedure>' being compiled
+2>		UE_STATIC_ASSERT_WARN(TIsTriviallyRelocatable_V<InElementType>, "TArray can only be used with trivially relocatable types");
+2>		^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\GCObject.h(226,15): note: while evaluating concept 'CDerivedFrom<FStandardOperatingProcedure,FGCObject>'
+2>template <UE::CDerivedFrom<FGCObject> T>
+2>              ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(15,30): note: see reference to variable template 'const bool is_base_of_v<FGCObject,FStandardOperatingProcedure>' being compiled
+2>	concept CDerivedFrom = std::is_base_of_v<BaseType, DerivedType> && std::is_convertible_v<const volatile DerivedType*, const volatile BaseType*>;
+2>	                            ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Containers\Array.h(996,3): error C2672: 'DestructItems': no matching overloaded function found
+2>		DestructItems(GetData(), ArrayNum);
+2>		^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Templates\MemoryOps.h(86,30): note: could be 'void DestructItems(ElementType *,SizeType)'
+2>FORCENOINLINE constexpr void DestructItems(ElementType* Element, SizeType Count)
+2>                             ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Containers\Array.h(996,3): note: the associated constraints are not satisfied
+2>		DestructItems(GetData(), ArrayNum);
+2>		^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Templates\MemoryOps.h(85,12): note: use of undefined type 'FStandardOperatingProcedure'
+2>	requires (sizeof(ElementType) > 0 && !std::is_trivially_destructible_v<ElementType>) // the sizeof here should improve the error messages we get when we try to call this function with incomplete types
+2>	          ^
+2>C:\repos\flux-interface\homestead_twin\Project\Intermediate\Build\Win64\UnrealEditor\Inc\HomesteadTwin\UHT\U_SOPComponent.generated.h(18,8): note: see declaration of 'FStandardOperatingProcedure'
+2>struct FStandardOperatingProcedure;
+2>       ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Templates\MemoryOps.h(81,28): note: or       'void DestructItems(ElementType *,SizeType)'
+2>FORCEINLINE constexpr void DestructItems(ElementType* Element, SizeType Count)
+2>                           ^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Containers\Array.h(996,3): note: the associated constraints are not satisfied
+2>		DestructItems(GetData(), ArrayNum);
+2>		^
+2>C:\Program Files\Epic Games\UE_5.7\Engine\Source\Runtime\Core\Public\Templates\MemoryOps.h(80,12): note: use of undefined type 'FStandardOperatingProcedure'
+2>	requires (sizeof(ElementType) > 0 && std::is_trivially_destructible_v<ElementType>) // the sizeof here should improve the error messages we get when we try to call this function with incomplete types
+2>	          ^
+2>C:\repos\flux-interface\homestead_twin\Project\Intermediate\Build\Win64\UnrealEditor\Inc\HomesteadTwin\UHT\U_SOPComponent.generated.h(18,8): note: see declaration of 'FStandardOperatingProcedure'
+2>struct FStandardOperatingProcedure;
+2>       ^
+2>[21/41] Compile [x64] Pawn_VR.cpp
+2>[22/41] Compile [x64] BlueprintAssetHelper.cpp
+2>[23/41] Compile [x64] Module.HomesteadTwin.cpp
+2>[24/41] Compile [x64] BlueprintReferencesCommandlet.cpp
+2>[25/41] Compile [x64] VisualStudioTools.cpp
+2>[26/41] Compile [x64] A_Annotation.cpp
+2>[27/41] Compile [x64] U_TelemetryComponent.cpp
+2>[28/41] Compile [x64] Module.VisualStudioTools.cpp
+2>[29/41] Compile [x64] VSTestAdapterCommandlet.cpp
+2>[30/41] Compile [x64] VisualStudioToolsCommandletBase.cpp
+2>[31/41] Compile [x64] VSServerCommandlet.cpp
+2>[32/41] Compile [x64] VisualStudioToolsCommandlet.cpp
+2>C:\repos\flux-interface\homestead_twin\Project\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandlet.cpp(118,60): warning C4996: 'UClass::ClassDefaultObject': ClassDefaultObject will be made private in the next release. For general purpose access to the CDO consider using the global GetDefault<>() or GetMutableDefault<>() functions. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+2>			UObject* GeneratedClassDefault = BlueprintGeneratedClass->ClassDefaultObject;
+2>			                                                        ^
+2>C:\repos\flux-interface\homestead_twin\Project\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandlet.cpp(257,64): warning C4996: 'UClass::ClassDefaultObject': ClassDefaultObject will be made private in the next release. For general purpose access to the CDO consider using the global GetDefault<>() or GetMutableDefault<>() functions. - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+2>				UObject* GeneratedClassDefault = Blueprints[BlueprintEntry]->ClassDefaultObject;
+2>				                                                           ^
+2>[33/41] Compile [x64] VisualStudioBlueprintDebuggerHelperModule.cpp
+2>[34/41] Link [x64] UnrealEditor-VisualStudioBlueprintDebuggerHelper.lib
+2>[35/41] Link [x64] UnrealEditor-VisualStudioBlueprintDebuggerHelper.dll
+2>[36/41] Compile [x64] VisualStudioToolsBlueprintBreakpointExtension.cpp
+2>[37/41] Link [x64] UnrealEditor-VisualStudioTools.lib
+2>[38/41] Link [x64] UnrealEditor-VisualStudioTools.dll
+2>Trace written to file C:/Users/ethan/AppData/Local/UnrealBuildTool/Log.uba with size 27.8kb
+2>Total time in Unreal Build Accelerator local executor: 67.40 seconds
+2>
+2>Result: Failed (OtherCompilationError)
+2>Total execution time: 75.37 seconds
+2>C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(50,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.7\Engine\Build\BatchFiles\Rebuild.bat" HomesteadTwinEditor Win64 Development -Project="C:\repos\flux-interface\homestead_twin\Project\HomesteadTwin.uproject" -WaitMutex -FromMsBuild -architecture=x64" exited with code -1.
+2>Done building project "HomesteadTwin.vcxproj" -- FAILED.
+========== Rebuild All: 51 succeeded, 1 failed, 1 skipped ==========
+========== Rebuild completed at 8:03 PM and took 01:16.815 minutes ==========

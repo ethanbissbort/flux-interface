@@ -7,11 +7,7 @@
     {
       "Name": "HomesteadTwin",
       "Type": "Runtime",
-      "LoadingPhase": "Default",
-      "AdditionalDependencies": [
-        "Engine",
-        "UMG"
-      ]
+      "LoadingPhase": "Default"
     }
   ],
   "Plugins": [
@@ -36,10 +32,19 @@
     {
       "Name": "ModelingToolsEditorMode",
       "Enabled": true
+    },
+    {
+      "Name": "VisualStudioTools",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
     }
   ],
   "TargetPlatforms": [
     "Windows"
   ],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
   "EpicSampleNameHash": "0"
 }

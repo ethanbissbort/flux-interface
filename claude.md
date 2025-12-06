@@ -27,11 +27,12 @@ The **Homestead Twin** is a single-user Unreal Engine 5.x digital twin applicati
 
 ### Core Technologies
 
-- **Engine**: Unreal Engine 5.x (Nanite + Lumen capable)
-- **Platforms**: Windows Desktop (primary), PCVR via SteamVR
-- **Input**: Desktop (keyboard/mouse), VR (teleport + smooth locomotion)
+- **Engine**: Unreal Engine 5.7 (Nanite + Lumen capable)
+- **Platforms**: Windows Desktop (primary), PCVR via SteamVR (planned)
+- **Input**: Desktop (keyboard/mouse via Enhanced Input), VR (teleport + smooth locomotion - TODO)
 - **3D Scanning**: Tier 2 prosumer handheld scanners (Einstar/Miraco class)
 - **Telemetry (future)**: REST APIs, MQTT topics (NetBotz, PV/battery monitoring, security sensors)
+- **Modules**: HeadMountedDisplay, UMG, Slate, JSON, HTTP, EnhancedInput
 
 ---
 
@@ -303,11 +304,59 @@ Test response to operational scenarios:
 
 ---
 
+## Critical Current Issues (2025-12-06)
+
+### Build Status: BROKEN
+
+**Current Error**: Forward declaration issue in `U_SOPComponent.cpp`
+- `FStandardOperatingProcedure` is undefined
+- Need proper include for `US_SOPManager.h` in header file
+
+### Critical Blockers
+
+1. **No Content Folder**: Project has no Content/, Blueprints, or maps
+   - Cannot run or test the application
+   - All C++ classes need Blueprint derivatives to be useful
+
+2. **VR Systems**: All VR code is stubs (Pawn_VR, PC_VR)
+   - Teleport locomotion: TODO
+   - Smooth locomotion: TODO
+   - All input handling: TODO
+
+3. **Enhanced Input Not Configured**: All input bindings marked TODO
+   - Desktop input partially working via legacy system
+   - VR input completely unimplemented
+
+4. **Data Loading Not Implemented**: Subsystems can't load data
+   - SOP data table loading: TODO
+   - Phase definitions loading: TODO
+   - Annotation JSON save/load: TODO
+
+### Next Required Steps
+
+**To Get a Runnable Build:**
+1. Fix compilation error (FStandardOperatingProcedure)
+2. Create Content folder structure (`Content/`, `Content/Maps/`, `Content/Blueprints/`, `Content/UI/`)
+3. Create test map (`Map_Homestead_Main`)
+4. Create Blueprint classes derived from C++ base classes
+5. Create minimal HUD widget
+6. Configure Enhanced Input assets
+
+**Phase A Completion Requirements:**
+- All above steps completed
+- Desktop navigation fully functional end-to-end
+- Basic greybox geometry placeable
+- Documentation updated to reflect actual state
+
+---
+
 ## Development Workflow
 
 ### Current Phase
 
-Check `ROADMAP.md` for current development phase. As of project start, we are in **Phase A: Bootstrap & Foundation**.
+As of 2025-12-06, we are in **Phase A: Bootstrap & Foundation** (~30% complete).
+
+C++ framework is ~70% complete, but Content/Blueprint work has not started (0%). The project cannot currently be run or tested.
 
 ### When Working on a New Feature
 
@@ -519,17 +568,48 @@ Content/
 
 ## Changelog & Version Tracking
 
-### Current State (as of 2025-11-16)
+### Current State (as of 2025-12-06)
 
-- **Phase**: A (Bootstrap & Foundation) — in progress
-- **UE Project**: Scaffolded, not yet functional
+- **Phase**: A (Bootstrap & Foundation) — ~30% complete
+- **UE Version**: 5.7
+- **UE Project**: C++ framework scaffolded (~70% complete), Content/Blueprints not started (0%)
+- **Build Status**: Compiling but has forward declaration issue in U_SOPComponent.cpp
 - **Documentation**: Comprehensive roadmap and design docs created
 - **Scans**: None yet imported
-- **SOPs**: Structure defined, no content yet
-- **Telemetry**: Future phase (F)
+- **SOPs**: Structure defined, example CSV data tables created
+- **Telemetry**: Mock data generation working, real endpoints future phase (F)
+
+### Implementation Status
+
+**Fully Implemented (C++):**
+- Desktop pawn movement (WASD, sprint, slow walk, camera)
+- Annotation CRUD operations
+- Phase switching logic
+- SOP query methods (data loading TODO)
+- Telemetry mock data generation
+- Scenario activation framework
+- Base object and component architecture
+
+**Partially Implemented (Stubs/TODOs):**
+- VR Pawn (structure only, all locomotion methods TODO)
+- VR Player Controller (structure only, all methods TODO)
+- Enhanced Input bindings (TODO across all controllers)
+- Subsystem data loading from Data Tables (TODO)
+- JSON save/load for annotations (TODO)
+- Phase visibility and level streaming (TODO)
+
+**Not Started:**
+- Any Content folder structure
+- Any Blueprint classes
+- Any UI widgets (UMG)
+- Any maps or levels
+- Any 3D scans or assets
+- VR functionality (all stubs)
 
 ### Update Log
 
+- **2025-12-06**: Documentation audit and update; C++ implementation ~70% complete
+- **2025-12-04**: Multiple build fixes (HeadMountedDisplay module, includes, component naming)
 - **2025-11-16**: Initial roadmap and Claude context documentation created
 - **2025-11-15**: UE5 project scaffolded, initial design docs
 - **2025-11-14**: Repository initialized
@@ -668,6 +748,8 @@ This is a single-maintainer project. For questions, clarifications, or suggestio
 
 ---
 
-**Last Updated**: 2025-11-16
-**Roadmap Phase**: A (Bootstrap & Foundation)
-**UE Version**: 5.3.x (or latest stable 5.x)
+**Last Updated**: 2025-12-06
+**Roadmap Phase**: A (Bootstrap & Foundation) — ~30% Complete
+**UE Version**: 5.7
+**Build Status**: Has compilation errors (needs forward declaration fix)
+**Next Critical Steps**: Fix build errors, create Content folder, create test map, create Blueprint classes

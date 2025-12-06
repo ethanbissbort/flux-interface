@@ -1,8 +1,16 @@
 # Homestead Twin Development Roadmap
 
+**Last Updated**: 2025-12-06
+**Current Phase**: A (Bootstrap & Foundation) — ~30% Complete
+**UE Version**: 5.7
+**Build Status**: ⚠️ Compilation error (needs fix)
+**Next Milestone**: Fix build, create Content folder, create test map
+
+---
+
 ## Project Vision
 
-The **Homestead Twin** is a single-user Unreal Engine 5.x digital twin application for the Fluxology Homestead — providing a spatially accurate, interactive 3D/VR environment for operations planning, training, design iteration, and eventual live telemetry visualization.
+The **Homestead Twin** is a single-user Unreal Engine 5.7 digital twin application for the Fluxology Homestead — providing a spatially accurate, interactive 3D/VR environment for operations planning, training, design iteration, and eventual live telemetry visualization.
 
 **Core Objectives:**
 - Accurate 1:1 spatial representation of homestead physical infrastructure
@@ -26,46 +34,93 @@ The **Homestead Twin** is a single-user Unreal Engine 5.x digital twin applicati
 
 **Goal**: Establish working UE5 project with basic navigation and architecture.
 
+**Status as of 2025-12-06**: ~30% Complete (C++ framework ~70%, Content/Blueprints 0%)
+
 ### Milestones
 
 #### A.1 - Project Initialization
 - [x] Create UE5 project structure (`homestead_twin/Project/HomesteadTwin.uproject`)
 - [x] Set up repository structure (`data/`, `docs/`, `tools/`)
 - [x] Document coordinate system (origin at rack container SW corner, X=East, Y=North, Z=Up)
-- [ ] Configure `.gitignore` for large binary assets (raw scans, UE intermediate files)
-- [ ] Set up UE project settings:
-  - Target platform: Windows Desktop + PCVR (SteamVR)
-  - Rendering: DirectX 12, Lumen/Nanite support
-  - VR plugins enabled
+- [x] Configure `.gitignore` for large binary assets (raw scans, UE intermediate files)
+- [x] Set up UE project settings:
+  - [x] Target platform: Windows Desktop (primary)
+  - [x] Rendering: DirectX 12, Lumen/Nanite support
+  - [x] VR plugins: SteamVR/SteamVRInput disabled (deferred to Phase E)
+  - [x] EnhancedInput, ModelingToolsEditorMode, VisualStudioTools enabled
+  - [x] UE Version: 5.7
+  - [x] Module dependencies: HeadMountedDisplay, UMG, Slate, JSON, HTTP
 
-#### A.2 - Core Framework
-- [ ] Create base classes:
-  - `GI_HomesteadTwin` (GameInstance)
-  - `GM_HomesteadTwin` (GameMode)
-  - `PC_Desktop` and `PC_VR` (PlayerControllers)
-  - `Pawn_Desktop` and `Pawn_VR` (Player pawns)
-- [ ] Implement basic movement:
-  - Desktop: WASD + mouse look, sprint/slow walk
-  - VR: Teleport locomotion, smooth locomotion toggle
+#### A.2 - Core Framework (C++ Classes)
+- [x] Create base classes (C++ scaffolded):
+  - [x] `GI_HomesteadTwin` (GameInstance) — basic implementation, subsystem init TODO
+  - [x] `GM_HomesteadTwin` (GameMode) — basic implementation
+  - [x] `PC_Desktop` and `PC_VR` (PlayerControllers) — desktop partial, VR stubs only
+  - [x] `Pawn_Desktop` and `Pawn_VR` (Player pawns) — desktop mostly done, VR stubs only
+- [x] Create subsystems (C++ scaffolded):
+  - [x] `US_HomesteadPhaseManager` — phase switching logic done, visibility TODO
+  - [x] `US_SOPManager` — query methods done, data loading TODO
+  - [x] `US_AnnotationManager` — CRUD operations done, JSON save/load TODO
+  - [x] `US_TelemetryManager` — mock data working, real endpoints TODO
+  - [x] `US_ScenarioManager` — activation logic done, visual effects TODO
+- [x] Create components (C++ scaffolded):
+  - [x] `U_InteractableComponent` — basic framework
+  - [x] `U_SOPComponent` — structure defined, GetSOPData TODO
+  - [x] `U_TelemetryComponent` — structure only, all functionality TODO
+- [x] Create actors (C++ scaffolded):
+  - [x] `A_HomesteadObject` — base class complete
+  - [x] `A_Annotation` — structure defined, widget updates TODO
+- [x] Implement basic movement (C++ only):
+  - [x] Desktop: WASD + mouse look, sprint/slow walk ✅ FUNCTIONAL
+  - [ ] Desktop: Enhanced Input bindings (using legacy input, TODO)
+  - [ ] VR: Teleport locomotion (stub only, TODO)
+  - [ ] VR: Smooth locomotion toggle (stub only, TODO)
+
+#### A.2.1 - Blueprint Framework (NOT STARTED)
+- [ ] Create Content folder structure
+- [ ] Create Blueprint classes derived from C++:
+  - [ ] `BP_GI_HomesteadTwin` (from GI_HomesteadTwin)
+  - [ ] `BP_GM_HomesteadTwin` (from GM_HomesteadTwin)
+  - [ ] `BP_PC_Desktop` (from PC_Desktop)
+  - [ ] `BP_Pawn_Desktop` (from Pawn_Desktop)
+  - [ ] `BP_HomesteadObject` (from A_HomesteadObject)
+- [ ] Configure Enhanced Input assets (IMC, IA)
+- [ ] Bind input actions in Blueprints
+
+#### A.3 - Minimal UI (NOT STARTED)
 - [ ] Create minimal HUD widgets:
-  - `WID_HUD_Minimal` (desktop)
-  - `WID_HUD_VR` (VR)
+  - [ ] `WID_HUD_Minimal` (desktop) — shows basic info
+  - [ ] Create and bind to HUD in `BP_PC_Desktop`
 
-#### A.3 - Test Environment
+#### A.4 - Test Environment (NOT STARTED)
 - [ ] Create test map: `Map_Homestead_Main`
-- [ ] Add basic terrain plane at origin
+- [ ] Add basic terrain plane at origin (0,0,0)
 - [ ] Place greybox container meshes (rack, workshop, tiny home placeholders)
+- [ ] Set `BP_GM_HomesteadTwin` as default GameMode
 - [ ] Verify coordinate system alignment with real-world measurements
+- [ ] Test desktop navigation end-to-end
+
+#### A.5 - Build and Validation
+- [ ] Fix current compilation error (FStandardOperatingProcedure forward declaration)
+- [ ] Ensure project compiles cleanly
+- [ ] Ensure project runs in UE Editor
+- [ ] Test all Phase A functionality
 
 **Success Criteria:**
-- Can launch project in UE5 Editor
-- Can navigate test map in desktop mode (WASD + mouse)
-- Can navigate test map in VR (teleport/smooth locomotion)
-- Coordinate system documented and verified in-engine
+- [x] C++ framework compiles (⚠️ currently broken, needs fix)
+- [ ] Can launch project in UE5 Editor
+- [ ] Can navigate test map in desktop mode (WASD + mouse)
+- [ ] Coordinate system documented and verified in-engine
+- [ ] Desktop HUD displays basic information
+- ❌ VR navigation deferred to Phase E
 
-**Estimated Duration**: 1–2 weeks
+**Estimated Duration**: 1–2 weeks (original) → **4–6 weeks (revised based on actual scope)**
 
-**Dependencies**: Unreal Engine 5.3+ installed, VR headset available for testing
+**Actual Duration So Far**: ~3 weeks (C++ framework only)
+
+**Dependencies**:
+- Unreal Engine 5.7 installed ✅
+- VR headset testing deferred to Phase E ✅
 
 ---
 
@@ -490,19 +545,26 @@ The **Homestead Twin** is a single-user Unreal Engine 5.x digital twin applicati
 
 ## Timeline Summary
 
-| Phase | Estimated Duration | Cumulative |
-|-------|-------------------|------------|
-| Phase A: Bootstrap & Foundation | 1–2 weeks | 1–2 weeks |
-| Phase B: Greybox Homestead & Phase System | 2–3 weeks | 3–5 weeks |
-| Phase C: First Scans & Asset Pipeline | 3–4 weeks | 6–9 weeks |
-| Phase D: Interaction & Object System | 4–5 weeks | 10–14 weeks |
-| Phase E: Interior Scans & VR Polish | 4–5 weeks | 14–19 weeks |
-| Phase F: Telemetry & Scenario Simulation | 5–6 weeks | 19–25 weeks |
-| Phase G: Polish, Documentation, & Deployment | 4–6 weeks | 23–31 weeks |
+| Phase | Original Estimate | Revised Estimate | Actual Progress | Cumulative (Revised) |
+|-------|------------------|------------------|-----------------|---------------------|
+| Phase A: Bootstrap & Foundation | 1–2 weeks | 4–6 weeks | ~3 weeks (30% complete) | 4–6 weeks |
+| Phase B: Greybox Homestead & Phase System | 2–3 weeks | 3–4 weeks | Not started | 7–10 weeks |
+| Phase C: First Scans & Asset Pipeline | 3–4 weeks | 4–5 weeks | Not started | 11–15 weeks |
+| Phase D: Interaction & Object System | 4–5 weeks | 5–6 weeks | Not started | 16–21 weeks |
+| Phase E: Interior Scans & VR Polish | 4–5 weeks | 5–7 weeks | Not started | 21–28 weeks |
+| Phase F: Telemetry & Scenario Simulation | 5–6 weeks | 6–8 weeks | Not started | 27–36 weeks |
+| Phase G: Polish, Documentation, & Deployment | 4–6 weeks | 5–7 weeks | Not started | 32–43 weeks |
 
-**Total Estimated Timeline**: 23–31 weeks (approximately 6–8 months)
+**Original Estimated Timeline**: 23–31 weeks (6–8 months)
+**Revised Estimated Timeline**: 32–43 weeks (8–11 months)
+**Time Elapsed**: ~3 weeks
+**Completion**: ~7% overall
 
-**Note**: Timelines assume part-time development (10–20 hours/week). Adjust accordingly for different time commitments.
+**Note**: Timelines assume part-time development (10–20 hours/week). Revised estimates reflect:
+- Underestimated complexity of C++ framework
+- Need for Blueprint/Content work in addition to C++
+- Enhanced Input system configuration overhead
+- Build troubleshooting time
 
 ---
 

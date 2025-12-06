@@ -1,26 +1,187 @@
-# OS
+# ==============================================================================
+# Homestead Twin .gitignore
+# Last Updated: 2025-12-06
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Operating System Files
+# ------------------------------------------------------------------------------
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Git merge artifacts
+# ------------------------------------------------------------------------------
+# Git Merge Artifacts
+# ------------------------------------------------------------------------------
 *.orig
+*.rej
 
+# ------------------------------------------------------------------------------
 # Unreal Engine
+# ------------------------------------------------------------------------------
+
+# Generated files
 homestead_twin/Project/Binaries/
 homestead_twin/Project/DerivedDataCache/
 homestead_twin/Project/Intermediate/
 homestead_twin/Project/Saved/
-homestead_twin/Project/.vs/
-*.VC.db
-*.sln
-
-# Build artifacts
 homestead_twin/Project/Build/
-homestead_twin/Project/Plugins/*/Intermediate/
-homestead_twin/Project/Plugins/*/Binaries/
 
-# Large data / raw scans (adjust as needed)
+# Visual Studio / Rider
+homestead_twin/Project/.vs/
+homestead_twin/Project/.idea/
+homestead_twin/Project/.vscode/
+*.VC.db
+*.VC.VC.opendb
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Plugin binaries
+homestead_twin/Project/Plugins/*/Binaries/
+homestead_twin/Project/Plugins/*/Intermediate/
+homestead_twin/Project/Plugins/*/Build/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Crash logs
+homestead_twin/Project/*.log
+homestead_twin/Project/Saved/Logs/
+
+# ------------------------------------------------------------------------------
+# Large Data Files (NOT IN GIT)
+# ------------------------------------------------------------------------------
+
+# Raw 3D scan data (extremely large, managed locally)
 data/scans/raw/**
+
+# Processed scans (optional - may be included for some small scans)
+# Uncomment if processed scans should also be excluded:
+# data/scans/processed/**
+
+# Backups (local only)
 data/backups/**
+
+# Exports (screenshots, videos, documentation exports)
 data/exports/**/*.mp4
+data/exports/**/*.avi
+data/exports/**/*.mov
 data/exports/screenshots/**
+data/exports/videos/**
+
+# Large textures (if applicable)
+data/textures/**/*.tga
+data/textures/**/*.exr
+
+# ------------------------------------------------------------------------------
+# Temporary and Cache Files
+# ------------------------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Blender
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+
+# Node.js (if any helper tools use it)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# ------------------------------------------------------------------------------
+# Build Logs and Output
+# ------------------------------------------------------------------------------
+
+# Build logs (kept in repo for debugging, but can exclude if too large)
+# homestead_twin/Project/build-logs/*.txt
+
+# ------------------------------------------------------------------------------
+# Sensitive Data (NEVER COMMIT)
+# ------------------------------------------------------------------------------
+
+# Credentials, secrets, API keys
+*.env
+.env.*
+credentials.json
+secrets.json
+config.local.*
+
+# Telemetry endpoints with real IPs/credentials
+docs/telemetry/endpoints_production.json
+docs/telemetry/credentials/
+
+# ------------------------------------------------------------------------------
+# User-specific Configuration
+# ------------------------------------------------------------------------------
+
+# Local project settings (per-developer preferences)
+homestead_twin/Project/Config/UserEngine.ini
+homestead_twin/Project/Config/UserGame.ini
+homestead_twin/Project/Config/UserInput.ini
+homestead_twin/Project/Config/UserEditor.ini
+
+# ------------------------------------------------------------------------------
+# Optional: Content That May Be Large
+# ------------------------------------------------------------------------------
+
+# Uncomment if Content folder grows very large:
+# homestead_twin/Project/Content/Scans/**/*.fbx
+# homestead_twin/Project/Content/Scans/**/*.obj
+# homestead_twin/Project/Content/Collections/
+# homestead_twin/Project/Content/Developers/
+
+# StarterContent (if not needed, can be excluded to save space)
+# homestead_twin/Project/Content/StarterContent/
+
+# ------------------------------------------------------------------------------
+# End of .gitignore
+# ------------------------------------------------------------------------------
